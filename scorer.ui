@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Scorer</class>
+ <widget class="QMainWindow" name="Scorer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1094</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Scorer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>729</width>
+      <height>273</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_main">
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QChartView" name="graphicsView"/>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="4" column="2">
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_index">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>/</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_total">
+             <property name="text">
+              <string>Tot</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="1">
+          <widget class="QPushButton" name="pushButton_previous">
+           <property name="text">
+            <string>&lt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="6">
+          <widget class="QPushButton" name="pushButton_addNew">
+           <property name="text">
+            <string>Add New</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Genere</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="lineEdit_cognome"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Data</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QComboBox" name="comboBox">
+           <item>
+            <property name="text">
+             <string>M</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>F</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QLineEdit" name="lineEdit_score"/>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Occupazione</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLineEdit" name="lineEdit_nome"/>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>Score</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>Nome</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Cognome</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QPushButton" name="pushButton_Delete">
+           <property name="text">
+            <string>Delete</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLineEdit" name="lineEdit_occupazione"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QPushButton" name="pushButton_Plot">
+           <property name="text">
+            <string>Plot</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QDateEdit" name="dateEdit"/>
+         </item>
+         <item row="4" column="5">
+          <widget class="QPushButton" name="pushButton_Read_CSV">
+           <property name="text">
+            <string>ReadCSV</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="6">
+          <widget class="QPushButton" name="pushButton_ConfirmEdit">
+           <property name="text">
+            <string>ConfirmEdit</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="QPushButton" name="pushButton_next">
+           <property name="text">
+            <string>&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1094</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header>QtCharts</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
